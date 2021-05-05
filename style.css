@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* ------TAGS------ */
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+  color: #687980;
+  line-height: 32px;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Comfortaa', cursive;
+  color: #02475e;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 2px 4px 4px rgb(150 150 150);
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+i {
+  font-size: 26px;
+}
+
+div {
+  margin: 60px;
+  text-align: center;
+}
+
+
+/* ------CLASSES------ */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: #00adb5;
+  color: rgb(0,0,0);
+  padding: 10px;
+  radius: 1px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.btn-blue:hover {
+  background-color: #02475e;
+  color: rgb(255,255,255);
+}
+
+.header {
+  margin-top: 0;
+}
+
+.footer {
+  margin: 0;
+  padding: 10px;
+  width: 100vw;
+  background-color: #d8e3e7;
+  bottom: 0%;
+}
+
+.navbar {
+  margin: 0;
+  padding: 10px;
+  width: 100vw;
+  background-color: #d8e3e7;
+  height: 60px;
+}
+
+.navbar a {
+  float: right;
+  padding: 15px;
+}
+
+
+/* -------Responsiveness------- */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
